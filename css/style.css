@@ -125,7 +125,7 @@ input::placeholder {
 
 /* Custom dropdown dengan panah bawaan browser */
 select {
- appearance: none; /* matikan panah default */
+    appearance: none; 
   -webkit-appearance: none;
   -moz-appearance: none;
   background: rgba(255, 255, 255, 0.2)
@@ -280,12 +280,12 @@ option {
 }
 .task__meta {
   display: flex;
-  justify-content: space-between; /* pisahkan kiri & kanan */
+  justify-content: space-between; 
   align-items: center;
   gap: 8px;
   color: var(--muted);
   font-size: .92rem;
-  width: 100%; /* biar full ke kanan */
+  width: 100%; 
 }
 
 .task__title {
@@ -294,9 +294,9 @@ option {
 
 .task__badges {
   display: flex;
-  flex-direction: column; /* tetap kolom */
+  flex-direction: column; 
   gap: 6px;
-  align-items: flex-end;  /* rapat ke kanan */
+  align-items: flex-end;  
 }
 .badge {
     width: 100px;
